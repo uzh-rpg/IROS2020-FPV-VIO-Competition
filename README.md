@@ -8,7 +8,7 @@
 
 The participants are required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. 
 
-This is the second edition of the competition [first held at IROS 2019](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition). To obtain the prize money of **2000 USD**, the winner of this competition will need to outperform the winner from the previous competition as follows (both need to be satisfied):
+This is the second edition of the competition [first held at IROS 2019](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition). The evaluation datasets are exactly the same. To obtain the prize money of **2000 USD**, the winner of this competition will need to outperform the winner from the previous competition as follows (both need to be satisfied):
 
 * Average translation error below 6%
 * Average rotation error below 0.25 degrees per meter.
