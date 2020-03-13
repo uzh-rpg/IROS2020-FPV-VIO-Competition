@@ -1,4 +1,4 @@
-# The FPV Drone Racing VIO Competition
+# The FPV Drone Racing VIO Competition (ICRA 2020)
 
 <p align="center">
   <img width="50%" src="http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/indoor_forward_3_snapdragon_with_gt.gif" alt="The FPV Drone Racing VIO Competition" class="center"> 
@@ -6,11 +6,18 @@
 
 ## Description
 
-The participants are required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. The winner will be selected based on the accuracy of the estimated trajectories (details follow below) and will be awarded **1,000 USD** and will also be **invited to present his approach at the [IROS 2019 Workshop "Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/)** taking place on November 8, 2019 in Macau.
+The participants are required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. 
+
+This is the second edition of the competition [first held at IROS 2019](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition). To obtain the prize money of **2000 USD**, the winner of this competition will need to outperform the winner from the previous competition as follows (both need to be satisfied):
+
+* Average translation error below 6%
+* Average rotation error below 0.25 degrees per meter.
+
+Evaluation details are provided below. Results and report from the previous year can be found [on the dataset website](http://rpg.ifi.uzh.ch/uzh-fpv.html). The winner will also be **invited to present his approach at the relevant ICRA 2020 Workshop (TBA)**.
 
 ## Deadline
 
-The **deadline to submit the estimated trajectories and report is October 1, 2019. Follow [this link](https://form.jotformeu.com/91574387123360) to submit**.
+The **deadline to submit the estimated trajectories and report is April 26th, 2020. Submission link TBA**.
 
 ## Table of Contents:
 
@@ -33,7 +40,7 @@ The **deadline to submit the estimated trajectories and report is October 1, 201
 | outdoor forward 10  | ![https://youtu.be/G60gls4qeZ4](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/outdoor_forward_5_snapdragon_with_gt.gif) | 455.63 | 674 s | 1540102304 s | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.zip) | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.zip) |
 
 ## Submission Format
-Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. Follow [this link](https://form.jotformeu.com/91574387123360) to submit.
+Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. Submission link TBA.
 
 ### Estimated Trajectories
 The estimated trajectories should be stored in plain text files in the following format:
@@ -50,7 +57,7 @@ The pose is composed of translation (`tx` `ty` `tz`, in meters) and quaternion (
 
 ### Report
 In addition to the estimated trajectories, the participants are required to submit a short report (maximum **4** pages, 10MB, pdf) summarizing their approach.
-The reports of all teams will be published on the website after the competition.
+The reports of all teams will be published on the website after the competition ([like for the previous edition](http://rpg.ifi.uzh.ch/uzh-fpv.html)).
 The format of the report is left to the discretion of the participants, however the report must specify the following information:
 * A brief overview of the approach:
   * Filter or optimization-based (or else)?
@@ -72,4 +79,3 @@ We will use our publicly available [trajectory evaluation toolbox](https://githu
 ## Questions
 
 If you have a question about the challenge, please file a Github issue in this repository. This way the question and response will be visible to everyone.
-Subscribe to [this issue](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition/issues/1) to get notified about changes to this document.
