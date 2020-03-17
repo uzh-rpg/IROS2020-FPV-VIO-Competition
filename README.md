@@ -13,7 +13,7 @@ This is the second edition of the competition [first held at IROS 2019](https://
 * Average translation error below 5% -> 1000 USD
 * Average translation error below 2% -> 2000 USD
 
-Evaluation details are provided below. Results and report from the previous year can be found [on the dataset website](http://rpg.ifi.uzh.ch/uzh-fpv.html). The winner will also be **invited to present his approach at the relevant ICRA 2020 Workshop (TBA)**.
+The prize money will only be awarded to the  single team with the best performance. Evaluation details are provided below. Results and report from the previous year can be found [on the dataset website](http://rpg.ifi.uzh.ch/uzh-fpv.html). The winner will also be **invited to present his approach at the relevant ICRA 2020 Workshop (TBA)**.
 
 ## Deadline
 
