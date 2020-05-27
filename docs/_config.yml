@@ -1,8 +1,8 @@
 # Site settings
-title: "The FPV Drone Racing VIO Competition (ICRA 2020)"
+title: "The FPV Drone Racing VIO Competition (IROS 2020)"
 email:
 description: "Some description of our awesome FPV stuff!" # this means to ignore newlines until "baseurl:"
-baseurl: "/ICRA2020-FPV-VIO-Competition"
+baseurl: "/IROS2020-FPV-VIO-Competition"
 url: "https://uzh-rpg.github.io"
 
 twitter_username:
