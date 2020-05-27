@@ -30,7 +30,7 @@ Workshop on "Perception, Learning, and Control for Autonomous Agile Vehicles"**.
 
 ## Deadline
 
-The **deadline to submit the estimated trajectories and report is Sunday, September 27th, 2020**.
+The **deadline to submit the estimated trajectories and report is Sunday, September 27th, 2020. Submit [here](https://form.jotform.com/201473389108356)**.
 
 ## Table of Contents:
 
