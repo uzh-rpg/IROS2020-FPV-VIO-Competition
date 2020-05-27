@@ -1,4 +1,4 @@
-# The FPV Drone Racing VIO Competition (ICRA 2020)
+# The FPV Drone Racing VIO Competition (IROS 2020)
 
 <p align="center">
   <img width="50%" src="http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/indoor_forward_3_snapdragon_with_gt.gif" alt="The FPV Drone Racing VIO Competition" class="center"> 
@@ -6,18 +6,31 @@
 
 ## Description
 
-The participants are required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. 
+The participants are required to run their VIO algorithms on sequences selected 
+from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), 
+which include images, IMU measurements, and event-based camera data recorded with 
+a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is 
+to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. 
 
-This is the second edition of the competition [first held at IROS 2019](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition). The evaluation datasets are exactly the same. To obtain the prize money of up to **2000 USD**, the winner of this competition will need to outperform the winner from the previous competition as follows:
+This is the third edition of the competition 
+([IROS 2019](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition),
+[ICRA 2020](https://github.com/uzh-rpg/ICRA2020-FPV-VIO-Competition)). 
+The evaluation datasets are exactly the same. To obtain the prize money of up to 
+**2000 USD**, the winner of this competition will need to outperform the winners 
+from the previous competitions as follows:
 
 * Average translation error below 5% -> 1000 USD
 * Average translation error below 2% -> 2000 USD
 
-The prize money will only be awarded to the  single team with the best performance. Evaluation details are provided below. Results and report from the previous year can be found [on the dataset website](http://rpg.ifi.uzh.ch/uzh-fpv.html). The winner will also be **invited to present his approach at the relevant ICRA 2020 Workshop (TBA)**.
+The prize money will only be awarded to the  single team with the best performance. 
+Evaluation details are provided below. Results and reports from the previous editions 
+can be found [on the dataset website](http://rpg.ifi.uzh.ch/uzh-fpv.html). 
+The winner will also be **invited to present their approach at the IROS 2020 
+Workshop on "Perception, Learning, and Control for Autonomous Agile Vehicles"**.
 
 ## Deadline
 
-The **deadline to submit the estimated trajectories and report is April 26th, 2020. Submit [here](https://form.jotform.com/200722900749352)**.
+The **deadline to submit the estimated trajectories and report is Sunday, September 27th, 2020**.
 
 ## Table of Contents:
 
