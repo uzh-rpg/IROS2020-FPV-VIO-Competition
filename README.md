@@ -53,7 +53,7 @@ The **deadline to submit the estimated trajectories and report is Sunday, Septem
 | outdoor forward 10  | ![https://youtu.be/G60gls4qeZ4](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/outdoor_forward_5_snapdragon_with_gt.gif) | 455.63 | 674 s | 1540102304 s | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.zip) | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.zip) |
 
 ## Submission Format
-Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. [Submission link](https://form.jotform.com/200722900749352).
+Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. [Submission link](https://form.jotform.com/201473389108356).
 
 ### Estimated Trajectories
 The estimated trajectories should be stored in plain text files in the following format:
